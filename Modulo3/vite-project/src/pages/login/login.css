@@ -1,0 +1,27 @@
+.login-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--text);
+    font-size: 1.125rem; /** 18px */
+    font-weight: bold;
+    flex-wrap: wrap;
+    margin-top: 20rem;
+}
+
+.form-group {
+    background: transparent;
+    height: 2.5rem;
+    border: 0;
+    border-bottom: 2px solid var(--line);
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text);
+    padding: 0 .5rem;
+}
+
+.form-group input{
+    height: 2rem;
+}
